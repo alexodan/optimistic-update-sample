@@ -1,0 +1,26 @@
+.list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+.listItem {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem 0.5rem;
+  background: #e5e5e5;
+  font-size: 14px;
+}
+.favoriteButton {
+  border: 1px solid #ccc;
+  border-radius: 2px;
+  padding: 0.25rem 0;
+  width: 144px;
+  cursor: pointer;
+}
+.toggleButton {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 0.25rem 0.5rem;
+  cursor: pointer;
+}
